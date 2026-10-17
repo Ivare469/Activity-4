@@ -10,5 +10,4 @@ No live warnings, forecasts, or official advisories. Demo data only.
 4. Fill in the Observation, Verification, and Reflection fields in prompt-log.md.
 5. Push to GitHub and import into CodeSandbox; paste both links below.
 
-Repository: [add link]
-CodeSandbox: [add link]
+CodeSandbox: https://codesandbox.io/p/sandbox/5qtq52
