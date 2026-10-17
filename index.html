@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typhoon-Ready Household Guide</title>
+    <meta
+      name="description"
+      content="Educational demo for households preparing for typhoons and flooding in the Philippines."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">Educational demo content</p>
+        <h1>Typhoon-Ready Household Guide</h1>
+        <p class="intro">
+          A simple family checklist to prepare for typhoons, flooding, and power
+          interruptions. This page is for learning and planning only.
+        </p>
+      </div>
+    </header>
+
+    <main class="container main-layout">
+      <section class="panel" aria-labelledby="go-bag-heading">
+        <div class="panel-header">
+          <div>
+            <p class="section-tag">Preparedness</p>
+            <h2 id="go-bag-heading">Go-Bag Checklist</h2>
+          </div>
+          <div class="progress" aria-live="polite" aria-atomic="true">
+            <span id="progress-count">0</span>
+            <span>/</span>
+            <span id="progress-total">0</span>
+          </div>
+        </div>
+
+        <ul id="checklist" class="checklist" aria-label="Go-bag checklist"></ul>
+      </section>
+
+      <section class="panel" aria-labelledby="plan-heading">
+        <div class="panel-header">
+          <div>
+            <p class="section-tag">Family plan</p>
+            <h2 id="plan-heading">Emergency Family Plan</h2>
+          </div>
+        </div>
+
+        <form id="family-plan" class="plan-form">
+          <div class="field-group">
+            <label for="meeting-place">Meeting place</label>
+            <input
+              id="meeting-place"
+              name="meeting-place"
+              type="text"
+              placeholder="e.g., Barangay hall front gate"
+            />
+          </div>
+
+          <div class="field-group">
+            <label for="contact-one">Primary contact</label>
+            <input
+              id="contact-one"
+              name="contact-one"
+              type="text"
+              placeholder="Name and phone number"
+            />
+          </div>
+
+          <div class="field-group">
+            <label for="contact-two">Backup contact</label>
+            <input
+              id="contact-two"
+              name="contact-two"
+              type="text"
+              placeholder="Name and phone number"
+            />
+          </div>
+
+          <div class="field-group">
+            <label for="special-needs">Special needs / notes</label>
+            <textarea
+              id="special-needs"
+              name="special-needs"
+              rows="4"
+              placeholder="Medication, elderly care, pet plan, or other notes"
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="secondary" id="save-plan">Save plan</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel" aria-labelledby="reminders-heading">
+        <div class="panel-header">
+          <div>
+            <p class="section-tag">General guidance</p>
+            <h2 id="reminders-heading">Evacuation Reminders</h2>
+          </div>
+        </div>
+
+        <ul class="reminder-list">
+          <li>Keep emergency contacts written down in case mobile networks are weak.</li>
+          <li>Charge power banks and flashlights before the storm approaches.</li>
+          <li>Store clean water, food, and important documents in waterproof containers.</li>
+          <li>Check local barangay notices and follow official instructions when available.</li>
+          <li>Prepare a meeting place for family members in case of flooding or power loss.</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
